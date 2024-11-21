@@ -9,8 +9,8 @@ configuration {
 * {
     font: "Jetbrains Mono 12";
     foreground: #201f17;
-    background-color: #85b0a1;
-    active-background: #85b0a1;
+    background-color: #b4d4ac;
+    active-background: #a4845f;
     urgent-background: #ff5555;
     urgent-foreground: #282a36;
     selected-background: @active-background;
@@ -45,11 +45,11 @@ configuration {
     border-color: @bordercolor;
     spacing:      2px ;
     scrollbar:    false;
-    padding:      2px 0px 0px ;
+    padding:      0px 0px 0px ;
 }
 #element {
     border:  0;
-    padding: 3px ;
+    padding: 5px ;
 }
 #element.normal.normal {
     background-color: @background-color;
@@ -123,7 +123,7 @@ configuration {
 }
 #textbox-prompt-colon {
     expand:     false;
-    str:        ">";
+    str:        "";
     margin:     0px 0.3em 0em 0em ;
     text-color: @foreground;
 }
